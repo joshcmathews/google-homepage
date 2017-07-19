@@ -1,0 +1,17 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 13px;
+  float: right;
+  margin: 8px 15px;
+}
+
+#logo {
+  height: 124px;
+  width: 298px;
+  position: relative;
+  top: 165px;
+  left: 560px;
+}
