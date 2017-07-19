@@ -8,7 +8,7 @@ ul {
 li {
   font-size: 13px;
   float: right;
-  margin: 8px 15px;
+  margin: 10px 15px;
 }
 
 #logo {
@@ -68,4 +68,53 @@ button:hover {
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   color: #222;
+}
+
+#bottom1, #bottom2 {
+  color: #666;
+}
+
+#bottom1 {
+  height: 40px;
+  position: absolute;
+  left: 0;
+  width:720px;
+  bottom: 0px;
+  background-color: #e4e4e4;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bottom1 li {
+  margin-top: 15px;
+  display: inline;
+  float: left;
+}
+
+#bottom2 {
+  top: 617px;
+  width: 720px;
+  height: 40px;
+  position: relative;
+  bottom: 0px;
+  background-color: #e4e4e4;
+  padding: 0;
+  margin: 0 0;
+  margin-right: 0px;
+  right: 0px;
+  text-align: center;
+  float: right;
+
+}
+
+#bottom2 li {
+  margin-top: 15px;
+  display: inline;
+  float: right;
+}
+
+#apps {
+  width: 27px;
+  height: 27px;
 }
